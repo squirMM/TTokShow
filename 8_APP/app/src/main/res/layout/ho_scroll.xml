@@ -43,6 +43,6 @@
         />
     <include layout="@layout/review_text_l"
         android:id="@+id/review10"
-        style="@style/box_3"
+        style="@style/box_4"
         />
 </LinearLayout>
