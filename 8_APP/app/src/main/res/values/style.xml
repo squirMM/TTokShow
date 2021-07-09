@@ -8,6 +8,15 @@
     </style>
     <style name="review_style">
     </style>
+    <style name="key_box">
+        <item name="android:background">@color/white</item>
+        <item name="android:elevation">8dp</item>
+        <item name="android:layout_width">312dp</item>
+        <item name ="android:layout_height">384dp</item>
+        <item name ="android:layout_marginTop">10dp</item>
+        <item name ="android:layout_marginStart">24dp</item>
+        <item name ="android:layout_marginEnd">24dp</item>
+    </style>
     <!--상단&하단바-->
     <style name="bar">
         <item name="android:layout_width">match_parent</item>
