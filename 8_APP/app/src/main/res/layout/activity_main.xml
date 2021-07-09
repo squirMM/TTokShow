@@ -17,8 +17,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
     </View>
-    <Button
-        android:onClick="click_open"
+    <ImageButton
+        android:onClick="onClick"
+        android:background="@drawable/open_close_but"
         android:id="@+id/open"
         android:layout_marginEnd="24dp"
         android:layout_width="wrap_content"
@@ -26,9 +27,7 @@
         app:layout_constraintTop_toBottomOf="@id/top"
         app:layout_constraintEnd_toEndOf="parent"
         android:padding="0dp"
-        android:text="접기"
-        android:textSize="14sp"
-        style="@style/textView_style"/>
+        />
 
     <TextView
         android:id="@+id/name"
@@ -59,7 +58,7 @@
         android:layout_marginTop="10dp"
         android:textSize="28sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/name"
+        app:layout_constraintTop_toBottomOf="@id/inflatedlayout"
         android:text="@string/keyword_Top"
         style="@style/textView_style"/>
 
